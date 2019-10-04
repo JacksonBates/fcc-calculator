@@ -1,10 +1,14 @@
 .title {
+  padding: 40px ;
   font-family: monospace;
   font-weight: bold;
 }
 
 button {
-  border-radius: 40% !important;
+  border-radius: 30% !important;
+}
+button:hover {
+  color: blue;
 }
 
 .test {
@@ -14,15 +18,15 @@ button {
 .center-box {
   text-align: center;
   background-color: rgb(122,140,122);
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 100px auto;
   height: 270px;
   width: 320px;
 }
 
 .btn-calc {
-  width: 70px;
-  margin: 5px 6px 0;
+  width: 60px;
+  margin: 5px 10px 0;
   font-family: monospace;
   font-weight: bold;
 }
@@ -30,8 +34,9 @@ button {
 #output-box {
   height: 3em;
   max-width: 320px;
-  background-color: rgb(10,0,20);
-  color: rgb(0,255,0);
+  background-color: grey;
+  color: black;
+  font-weight : bold;
   font-family: monospace;
   padding: 0.75em;
   text-align: right;
