@@ -1,11 +1,26 @@
+.Top{
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.setter {
+  width: 100%;
+}
+.by {
+  width: 81px;
+}
 .title {
   padding: 40px ;
-  font-family: monospace;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
+  color: white;
+  font-size: 20px;
+
 }
 
 button {
-  border-radius: 30% !important;
+  border-radius: 0% !important;
+  margin : 0px;
 }
 button:hover {
   color: blue;
@@ -17,11 +32,11 @@ button:hover {
 
 .center-box {
   text-align: center;
-  background-color: rgb(122,140,122);
+  background-color: #bbc49d;
   border-radius: 10px;
   margin: 100px auto;
-  height: 270px;
-  width: 320px;
+  height: 310px;
+  width: 322px;
 }
 
 .btn-calc {
