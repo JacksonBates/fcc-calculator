@@ -3,24 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <title>FCC Calculator</title>
-    
-    
-    
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
-    
-    
-    
+
+
+
   </head>
 
   <body>
 
-    <div class="container">
+  <div class="container">
   <div class="center-box">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="Top">
         <span class="title">Calculator</span>
       </div>
     </div>
@@ -31,66 +31,74 @@
         </div>
       </div>
     </div>
+
     <div class="row">
-      <div class="col-xs-12">
-        <div class="btn-group">
-          <button type="button" id="all-clear" class="btn btn-default btn-calc">AC</button>
-          <button type="button" id="clear-entry" class="btn btn-default btn-calc">CE</button>
-          <button type="button" id="percent" class="btn btn-default btn-calc">%</button>
-          <button type="button" id="divide" class="btn btn-default btn-calc">/</button>
+        <div class=" btn-group btn-group-lg" role="group" aria-label="Basic example">
+            <button type="button" id="all-clear" class=" by btn btn-secondary">AC</button>
+            <button type="button" id="clear-entry" class=" by btn btn-secondary">CE</button>
+            <button type="button" id="percent" class=" by btn btn-secondary">%</button>
+            <button type="button" id="divide" class=" by btn btn-secondary">/</button>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+          <button type="button" id="seven" class=" by btn btn-secondary">7</button>
+          <button type="button" id="eight" class=" by btn btn-secondary">8</button>
+          <button type="button" id="nine" class=" by btn btn-secondary">9</button>
+          <button type="button" id="times" class=" by btn btn-secondary">x</button>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+          <button type="button" id="four" class=" by btn btn-secondary">4</button>
+          <button type="button" id="five" class=" by btn btn-secondary">5</button>
+          <button type="button" id="six" class=" by btn btn-secondary">6</button>
+          <button type="button" id="minus" class=" by btn btn-secondary">-</button>
         </div>
       </div>
     </div>
+
+
+
     <div class="row">
-      <div class="col-xs-12">
-        <div class="btn-group">
-          <button type="button" id="seven" class="btn btn-default btn-calc">7</button>
-          <button type="button" id="eight" class="btn btn-default btn-calc">8</button>
-          <button type="button" id="nine" class="btn btn-default btn-calc">9</button>
-          <button type="button" id="times" class="btn btn-default btn-calc">x</button>
+      <div class="col-sm">
+        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+          <button type="button" id="one" class=" by btn btn-secondary">1</button>
+          <button type="button" id="two" class=" by btn btn-secondary">2</button>
+          <button type="button" id="three" class=" by btn btn-secondary">3</button>
+          <button type="button" id="plus" class=" by btn btn-secondary">+</button>
         </div>
       </div>
     </div>
+
+
     <div class="row">
-      <div class="col-xs-12">
-        <div class="btn-group">
-          <button type="button" id="four" class="btn btn-default btn-calc">4</button>
-          <button type="button" id="five" class="btn btn-default btn-calc">5</button>
-          <button type="button" id="six" class="btn btn-default btn-calc">6</button>
-          <button type="button" id="minus" class="btn btn-default btn-calc">-</button>
+      <div class="col-sm">
+        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+          <button type="button" id="point" class=" by btn btn-secondary">.</button>
+          <button type="button" id="zero" class=" by btn btn-secondary">0</button>
+          <button type="button" id="equals" class=" by btn btn-secondary">=</button>
+          <button type="button" id="egg" class=" by btn btn-secondary"><span class="glyphicon glyphicon-info-sign"></span></button>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="btn-group">
-          <button type="button" id="one" class="btn btn-default btn-calc">1</button>
-          <button type="button" id="two" class="btn btn-default btn-calc">2</button>
-          <button type="button" id="three" class="btn btn-default btn-calc">3</button>
-          <button type="button" id="plus" class="btn btn-default btn-calc">+</button>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="btn-group">
-          <button type="button" id="point" class="btn btn-default btn-calc">.</button>
-          <button type="button" id="zero" class="btn btn-default btn-calc">0</button>
-          <button type="button" id="equals" class="btn btn-default btn-calc">=</button>
-          <button type="button" id="egg" class="btn btn-default btn-calc"><span class="glyphicon glyphicon-info-sign"></span></button>
-        </div>
-      </div>
-    </div>
+
+
   </div>
+
   <div class="test">
   </div>
+
 </div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
 
-        <script src="js/index.js"></script>
+  <script src="js/index.js"></script>
 
-    
-    
-    
   </body>
 </html>
